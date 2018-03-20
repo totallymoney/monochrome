@@ -1,4 +1,4 @@
-FROM mono:5.2
+FROM mono:5.8
 RUN apt-get update
 RUN apt-get install -y wget unzip
 RUN wget http://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
